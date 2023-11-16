@@ -17,7 +17,9 @@ export const CardImage = ({ src, className, imageClassName, alt }) => {
                 alt={alt}
                 objectFit="cover"
                 loading="lazy"
-                className={`w-full h-full ${imageClassName && imageClassName}`}
+                className={`w-full h-full rounded-xl ${
+                    imageClassName && imageClassName
+                }`}
             />
         </div>
     );

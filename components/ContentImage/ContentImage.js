@@ -10,7 +10,7 @@ const ContentImageData = [
         content:
             "lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattilorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.",
         align: "right",
-        image: "/features1.png"
+        image: "/feat1.jpg"
     },
     {
         id: uuid(),
@@ -18,7 +18,7 @@ const ContentImageData = [
         content:
             "lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattilorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.",
         align: "left",
-        image: "/features2.png"
+        image: "/feat2.jpg"
     }
 ];
 
@@ -42,7 +42,7 @@ export const ContentImage = () => {
                             height={512}
                             objectFit="cover"
                             alt="Process Banner 1"
-                            className="drop-shadow-xl w-full offset-y-0 offset-x-8 blur-16"
+                            className="drop-shadow-xl w-full offset-y-0 offset-x-8 rounded-3xl blur-16"
                         />
                     </div>
                     <div
