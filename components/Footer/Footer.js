@@ -122,17 +122,7 @@ export const Footer = () => {
             <SectionContainer className="footer-credits relative z-10">
                 <div className="wrap wrap-px py-6">
                     <p className="my-0">
-                        © {year} Z-Washers. All rights reserved{" - "}
-                        <span className="font-normal">
-                            A Website by{" "}
-                            <Link
-                                className="transition-colors duration-300 hover:underline"
-                                href="https://github.com/nainish-rai"
-                                target="_blank"
-                            >
-                                Nainish
-                            </Link>
-                        </span>
+                        © {year} Z-Washers. All rights reserved
                     </p>
                 </div>
             </SectionContainer>

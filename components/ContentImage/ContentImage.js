@@ -8,7 +8,7 @@ const ContentImageData = [
         id: uuid(),
         title: "Effortless Order",
         content:
-            "lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattilorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.",
+            "Discover seamless laundry with ZWashers! Effortless online ordering, monthly plans, on-demand scheduling, per kg, and per unit options—everything you need for hassle-free laundry. Embrace simplicity, choose ZWashers for a carefree laundry experience",
         align: "right",
         image: "/feat1.jpg"
     },
@@ -16,7 +16,7 @@ const ContentImageData = [
         id: uuid(),
         title: "On Demand Service",
         content:
-            "lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattilorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.",
+            "Discover unparalleled convenience with ZWashers' On-Demand Service. Effortlessly tackle laundry day as we cater to your schedule, offering monthly, per kg, and per unit plans. Our seamless online ordering ensures a hassle-free experience. Streamline your laundry routine with ZWashers – where on-demand meets unparalleled ease.",
         align: "left",
         image: "/feat2.jpg"
     }

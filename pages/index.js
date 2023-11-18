@@ -46,9 +46,11 @@ export default function Home() {
                             </PageTitle>
                             <Content className="text-center" alignment="center">
                                 <p>
-                                    lorem ipsum dolor sit amet, consectetur
-                                    adipiscing elit, sed do eiusmod tempor
-                                    incididunt ut labore et dolore magna aliqua.
+                                    Revolutionize laundry with Z-Washers – your
+                                    go-to online service for effortless clothes
+                                    cleaning. Simplify your washing journey with
+                                    just a click, delivering convenience
+                                    to your doorstep.
                                 </p>
                             </Content>
                             <ContentImage />
@@ -90,14 +92,19 @@ export default function Home() {
                                             Customizable Plans
                                         </CardHeader>
                                         <p>
-                                            lorem ipsum dolor sit amet,
-                                            consectetur adipiscing elit. Nunc
-                                            vulputate libero et velit interdum,
-                                            ac aliquet odio mattilorem ipsum
-                                            dolor sit amet, consectetur
-                                            adipiscing elit. Nunc vulputate
-                                            libero et velit interdum, ac aliquet
-                                            odio mattis.
+                                            Experience flexibility like never
+                                            before with ZWashers Customizable
+                                            Plans. Tailor your monthly
+                                            subscription to fit your exact needs
+                                            – choose the number of pickups,
+                                            extend your clothing limit, and even
+                                            personalize per-unit plans. From
+                                            clothes to bed sheets, bags, and
+                                            shoes, we offer a range of options
+                                            to make laundry entirely on your
+                                            terms. Simplify your laundry
+                                            experience with ZWashers – where
+                                            customization meets convenience
                                         </p>
                                     </CardBody>
                                 </Card>
@@ -111,14 +118,17 @@ export default function Home() {
                                             Affordable Prices
                                         </CardHeader>
                                         <p>
-                                            lorem ipsum dolor sit amet,
-                                            consectetur adipiscing elit. Nunc
-                                            vulputate libero et velit interdum,
-                                            ac aliquet odio mattilorem ipsum
-                                            dolor sit amet, consectetur
-                                            adipiscing elit. Nunc vulputate
-                                            libero et velit interdum, ac aliquet
-                                            odio mattis.
+                                            Experience budget-friendly freshness
+                                            with ZWashers – our Affordable
+                                            Prices ensure quality laundry care
+                                            at unbeatable rates. Enjoy savings
+                                            compared to other options,
+                                            delivering value that doesn’t
+                                            compromise on excellence. Elevate
+                                            your laundry experience without
+                                            breaking the bank – choose ZWashers
+                                            for affordability that
+                                            exceeds expectations.
                                         </p>
                                     </CardBody>
                                 </Card>
