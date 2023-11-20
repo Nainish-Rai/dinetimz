@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import { SectionContainer } from "@components/Section";
 import Link from "next/link";
 import Image from "next/image";
@@ -62,9 +63,13 @@ export const Footer = () => {
                         <div className="col-span-6">
                             <div className="footer--logo grid gap-8">
                                 <Link href="/">
-                                    <p className="text-5xl font-semibold">
-                                        Z-Washers
-                                    </p>
+                                    <img
+                                        className=" lg:-ml-12"
+                                        src="/logo.png"
+                                        width={300}
+                                        height={200}
+                                        alt="Z-Washers Logo"
+                                    />
                                 </Link>
                                 {/* Get Template button; remove if not used */}
                                 <ButtonGroup alignment="left">

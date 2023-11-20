@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import Link from "next/link";
 import Image from "next/image";
 import { SectionContainer } from "@components/Section";
@@ -14,8 +15,15 @@ export const Header = () => {
             <SectionContainer className="header--container wrap wrap-px ">
                 <div className="header-logo--container">
                     <h1 className="logo mb-0">
-                        <Link href="/">
+                        <Link href="/" className="flex items-center gap-3">
                             <p className="font-semibold text-3xl">Z-Washers</p>
+                            <img
+                                className="-mt-2"
+                                src="/logo1.png"
+                                width={70}
+                                height={70}
+                                alt="Z-Washers Logo"
+                            />
                         </Link>
                     </h1>
                 </div>
