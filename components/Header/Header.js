@@ -16,14 +16,16 @@ export const Header = () => {
                 <div className="header-logo--container">
                     <h1 className="logo mb-0">
                         <Link href="/" className="flex items-center gap-3">
-                            <p className="font-semibold text-3xl">Z-Washers</p>
                             <img
-                                className="-mt-2"
-                                src="/logo1.png"
+                                className="-mt-1 w-12"
+                                src="/logo.png"
                                 width={70}
                                 height={70}
-                                alt="Z-Washers Logo"
+                                alt=" Logo"
                             />
+                            <p className="font-semibold text-3xl text-[#D98989]">
+                                DINE. TIMZ
+                            </p>
                         </Link>
                     </h1>
                 </div>

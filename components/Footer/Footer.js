@@ -65,10 +65,10 @@ export const Footer = () => {
                                 <Link href="/">
                                     <img
                                         className=" lg:-ml-12"
-                                        src="/logo.png"
+                                        src="/logo1.png"
                                         width={300}
                                         height={200}
-                                        alt="Z-Washers Logo"
+                                        alt=" Logo"
                                     />
                                 </Link>
                                 {/* Get Template button; remove if not used */}
@@ -127,7 +127,7 @@ export const Footer = () => {
             <SectionContainer className="footer-credits relative z-10">
                 <div className="wrap wrap-px py-6">
                     <p className="my-0">
-                        © {year} Z-Washers. All rights reserved
+                        © {year} DineTimz. All rights reserved
                     </p>
                 </div>
             </SectionContainer>

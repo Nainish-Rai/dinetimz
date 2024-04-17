@@ -9,28 +9,28 @@ const ColumnData = [
         title: "Arpit N.",
         icon: "/test1.png",
         content:
-            "Z Washers has revolutionized the way I do laundry. The work is user-friendly, and scheduling pickups is a breeze. The team is always on time, and my clothes come back smelling fresh and neatly folded. I can't imagine going back to the hassle of traditional laundry after experiencing the convenience of Z Washers!"
+            "As a college student, my budget's tight and routine sets in quick. Dinetimz has been a lifesaver! It breaks the boring meal cycle and makes even a random Tuesday lunch feel like an adventure. I've rediscovered the excitement of eating!"
     },
     {
         id: uuid(),
         title: "Vivek G.",
         icon: "test2.png",
         content:
-            "Z Washers has been a lifesaver for me! As a busy professional, I hardly find time for household chores. With their seamless online platform, I can schedule my laundry pick-ups and deliveries with just a few clicks. The service is prompt, my clothes always come back fresh and perfectly folded. Thank you, Z Washers, for making my life a little bit easier"
+            "I'm always seeking out new restaurants and hidden gems. Dinetimz feels like it was made for people like me. They introduce me to unique spots, flavors I never knew existed, and help me understand the stories behind the dishes. It's elevated my whole dining experience"
     },
     {
         id: uuid(),
         title: "Krish B.",
         icon: "test3.png",
         content:
-            "Being a parent and running a business leaves me with little time for anything else. Z Washers has become an essential part of my routine. Their reliable service and attention to detail are unmatched. I appreciate the convenience of scheduling pickups around my hectic schedule. Z Washers, you've made laundry day stress-free for me"
+            "Let's be real, after a long workday, the last thing I want is to decide what to eat.  Dinetimz takes that mental load off. I trust them to bring variety and deliciousness to my week. It's the best kind of surprise after a hectic day"
     },
     {
         id: uuid(),
         title: "Shubham D.",
         icon: "test4.png",
         content:
-            "Z Washers has been a game-changer for me in college. Instead of spending hours at the laundromat, I can focus on my studies and extracurricular activities. The app is user-friendly, and the team at Z Washers ensures my laundry is returned in top-notch condition. It's affordable, efficient, and a must-have for any student juggling a busy schedule"
+            "I love that Dinetimz caters to my changing moods. Sometimes I want comfort food, sometimes something exotic. Their selection feels limitless! It's inspired me to be bolder with my food choices and made dining out a journey rather than just a meal."
     }
 ];
 

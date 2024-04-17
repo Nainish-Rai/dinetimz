@@ -6,19 +6,19 @@ import { v4 as uuid } from "uuid";
 const ContentImageData = [
     {
         id: uuid(),
-        title: "Effortless Order",
+        title: "Quality Assurance",
         content:
-            "Discover seamless laundry with ZWashers! Effortless online ordering, monthly plans, on-demand scheduling, per kg, and per unit options—everything you need for hassle-free laundry. Embrace simplicity, choose ZWashers for a carefree laundry experience",
+            "Our vision extends beyond just breaking the monotony; we aim to spark a global movement where people appreciate the artistry in every dish, where a simple meal becomes a canvas for creativity. Dinetimz strives to be the bridge between diverse cuisines and eager taste buds, creating a tapestry of flavors that reflects the richness of our global culinary landscape",
         align: "right",
-        image: "/feat1.jpg"
+        image: "https://images.pexels.com/photos/7736775/pexels-photo-7736775.jpeg?auto=compress&cs=tinysrgb&w=600"
     },
     {
         id: uuid(),
-        title: "On Demand Service",
+        title: "Diverse Offerings",
         content:
-            "Discover unparalleled convenience with ZWashers' On-Demand Service. Effortlessly tackle laundry day as we cater to your schedule, offering monthly, per kg, and per unit plans. Our seamless online ordering ensures a hassle-free experience. Streamline your laundry routine with ZWashers – where on-demand meets unparalleled ease.",
+            "In this future, subscribing to Dinetimz isn't just a choice; it's a lifestyle. It's a commitment to savoring life's moments through the joy of discovering new tastes, forging connections over shared dining experiences, and ultimately, making each meal a story worth telling.",
         align: "left",
-        image: "/feat2.jpg"
+        image: "https://images.pexels.com/photos/2955819/pexels-photo-2955819.jpeg?auto=compress&cs=tinysrgb&w=600"
     }
 ];
 

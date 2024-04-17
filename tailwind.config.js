@@ -1,4 +1,7 @@
 /** @type {import('tailwindcss').Config} */
+const {
+    default: flattenColorPalette
+} = require("tailwindcss/lib/util/flattenColorPalette");
 module.exports = {
     content: [
         "./pages/**/*.{js,jsx}",
@@ -62,6 +65,7 @@ module.exports = {
                 ]
             },
             colors: {
+                primarytext: "#D98989",
                 black: {
                     DEFAULT: "#000000",
                     50: "#E6E6E6",
@@ -119,5 +123,15 @@ module.exports = {
             }
         }
     },
-    plugins: []
+    plugins: [addVariablesForColors]
 };
+function addVariablesForColors({ addBase, theme }) {
+    let allColors = flattenColorPalette(theme("colors"));
+    let newVars = Object.fromEntries(
+        Object.entries(allColors).map(([key, val]) => [`--${key}`, val])
+    );
+
+    addBase({
+        ":root": newVars
+    });
+}

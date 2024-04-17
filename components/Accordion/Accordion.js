@@ -7,30 +7,31 @@ import clsx from "clsx";
 const accordionData = [
     {
         id: uuid(),
-        title: "What is Z-Washers?",
+        title: "How can my mess or hostel partner with Dinetimz?",
         isOpen: true,
         content:
-            "lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattilorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis."
+            "To partner with Dinetimz, you can reach out to our team through the Partner with Us section on our website or contact us directly. We will guide you through the onboarding processlorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattilorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis."
     },
     {
         id: uuid(),
-        title: "Who is this service for?",
+        title: "What are the benefits of joining Dinetimz as a mess provider?",
         isOpen: false,
         content:
-            "lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattilorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis."
+            "By partnering with Dinetimz, you can expand your customer base and reach a wider audience of students. You'll also benefit from increased visibility and marketing support"
     },
     {
         id: uuid(),
-        title: "How much do I need to pay for this?",
-        isOpen: false,
-        content: "No, this is free."
-    },
-    {
-        id: uuid(),
-        title: "Where can I ask more questions about the service?",
+        title: "How does Dinetimz handle payments and subscriptions for mess providersHow much do I need to pay for this?",
         isOpen: false,
         content:
-            "If you have any further questions or need assistance regarding this template, please feel free to reach out to me on my website, or click the Contact within the navigation links."
+            "Dinetimz manages all payments and subscriptions on behalf of mess providers. We ensure timely disbursement of subscription fees to your mess or hostel"
+    },
+    {
+        id: uuid(),
+        title: "Can I customize the menu and pricing for my mess on Dinetimz?",
+        isOpen: false,
+        content:
+            "Yes, you have the flexibility to customize your menu offerings  BUT pricing on our platform.will remain constant as decided by us  We provide tools for you to update your menu as needed."
     }
 ];
 

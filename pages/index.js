@@ -21,8 +21,8 @@ export default function Home() {
     return (
         <Layout className="">
             <SEO
-                title="ZWashers - Your Clothes Deserve It"
-                description="Z-Washers Your Clothes Deserve It"
+                title="DineTimz"
+                description="Dinetimz – Elevate Your Dining Experience."
             />
             <div className="main-wrapper bg-[#F3F5F8] relative z-10 pb-20 pt-20 ">
                 {/* { Page Banner } */}
@@ -38,19 +38,23 @@ export default function Home() {
                                 <BadgeMessage>Features</BadgeMessage>
                             </BadgeGroup>
                             <PageTitle
-                                className="text-center mx-auto"
+                                className="text-center leading-10 mx-auto"
                                 type="default"
                             >
-                                Simplify Your Clothes Washing Journey with
-                                Z-Washers
+                                Say Goodbye to Monotonous <br />{" "}
+                                <span className="text-primarytext mt-4">
+                                    {" "}
+                                    Meals!
+                                </span>
                             </PageTitle>
                             <Content className="text-center" alignment="center">
                                 <p>
-                                    Revolutionize laundry with Z-Washers – your
-                                    go-to online service for effortless clothes
-                                    cleaning. Simplify your washing journey with
-                                    just a click, delivering convenience
-                                    to your doorstep.
+                                    Imagine students eagerly anticipating their
+                                    next meal, not just for nourishment but for
+                                    the excitement of trying something new. We
+                                    envision a dynamic platform that adapts to
+                                    evolving food trends, cultural fusions, and
+                                    seasonal delights.
                                 </p>
                             </Content>
                             <ContentImage />
@@ -69,7 +73,11 @@ export default function Home() {
                                 className="text-center mx-auto"
                                 type="default"
                             >
-                                Master Your Laundry Game with Z-Washers
+                                Variety on Your Plate – Dinetimz
+                                <span className="text-primarytext">
+                                    {" "}
+                                    Sets You Free
+                                </span>
                             </PageTitle>
                             <Content className="text-center" alignment="center">
                                 <p>
@@ -85,50 +93,42 @@ export default function Home() {
                                 <Card className="col-span-1 text-primary-900">
                                     <CardBody className="w-full bg-white-600/20 p-12">
                                         <CardImage
-                                            src="/efeat1.jpg"
+                                            src="https://images.pexels.com/photos/4062274/pexels-photo-4062274.jpeg?auto=compress&cs=tinysrgb&w=600"
                                             alt="Customizable Layouts image used."
                                         />
                                         <CardHeader className="!text-black !text-2xl !font-bold">
                                             Customizable Plans
                                         </CardHeader>
                                         <p>
-                                            Experience flexibility like never
-                                            before with ZWashers Customizable
-                                            Plans. Tailor your monthly
-                                            subscription to fit your exact needs
-                                            – choose the number of pickups,
-                                            extend your clothing limit, and even
-                                            personalize per-unit plans. From
-                                            clothes to bed sheets, bags, and
-                                            shoes, we offer a range of options
-                                            to make laundry entirely on your
-                                            terms. Simplify your laundry
-                                            experience with ZWashers – where
-                                            customization meets convenience
+                                            At Dinetimz, our focus is not only
+                                            on providing a variety of dining
+                                            options but also on ensuring that
+                                            each meal is prepared and delivered
+                                            with the utmost care, meeting the
+                                            highest standards of hygiene and
+                                            safety for our valued subscribers.
                                         </p>
                                     </CardBody>
                                 </Card>
                                 <Card className="col-span-1 text-primary-900">
                                     <CardBody className="w-full bg-white-600/20 p-12">
                                         <CardImage
-                                            src="/efeat2.jpg"
+                                            src="https://images.pexels.com/photos/5182122/pexels-photo-5182122.jpeg?auto=compress&cs=tinysrgb&w=600"
                                             alt="Progress Tracking image used."
                                         />
                                         <CardHeader className="!text-black !text-2xl !font-bold">
                                             Affordable Prices
                                         </CardHeader>
                                         <p>
-                                            Experience budget-friendly freshness
-                                            with ZWashers – our Affordable
-                                            Prices ensure quality laundry care
-                                            at unbeatable rates. Enjoy savings
-                                            compared to other options,
-                                            delivering value that doesn’t
-                                            compromise on excellence. Elevate
-                                            your laundry experience without
-                                            breaking the bank – choose ZWashers
-                                            for affordability that
-                                            exceeds expectations.
+                                            Dinetimz takes pride in partnering
+                                            with local mess vendors and tiffin
+                                            services to offer a diverse and
+                                            hygienic dining experience for our
+                                            subscribers. Our collaborative
+                                            network ensures that students enjoy
+                                            a variety of cuisines while
+                                            maintaining high standards of
+                                            hygiene and safety. .
                                         </p>
                                     </CardBody>
                                 </Card>
@@ -149,7 +149,7 @@ export default function Home() {
                             </BadgeGroup>
                             <PageTitle className="" type="default">
                                 This is what our customers have to say about
-                                Z-Washers
+                                DineTimz
                             </PageTitle>
                             <Columns />
                         </SectionContainer>
@@ -166,7 +166,7 @@ export default function Home() {
                                 className="text-center mx-auto"
                                 type="default"
                             >
-                                Got some burning questions about Z-Washers?{" "}
+                                Got some burning questions about DineTimz?{" "}
                                 <br></br>
                                 <br></br>No worries! We&apos;ve got the answers
                                 you need:
